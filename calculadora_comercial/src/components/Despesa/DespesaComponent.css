@@ -2,8 +2,8 @@
 
 .despesas-component {
   width: 100%;
-  height: 98vh;
-  background-color: rgb(255, 154, 154); /* Azul escuro */
+  height: 82.5vh;
+  background-color: rgba(0, 0, 0, 0.543);
   color: #fff;
   padding: 15px;
   margin-left: 5px;
@@ -32,16 +32,17 @@
   cursor: pointer;
   padding: 8px;
   margin-bottom: 4px;
-  background-color: #3949ab; /* Azul mais claro */
+  background-color: rgb(171, 57, 57);
   border-radius: 5px;
   font-size: 0.9rem;
 }
 
 .despesas-component li:hover {
-  background-color: #536dfe; /* Azul ainda mais claro no hover */
+  background-color: rgb(204, 80, 80);
 }
 
 .despesas-component p {
+  font-weight: bold; /* Adiciona negrito para destaque */
   margin-top: 20px;
   font-size: 1rem;
   color: #ffffff;

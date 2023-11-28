@@ -2,8 +2,8 @@
 
 .receitas-component {
   width: 100%;
-  height: 98vh;
-  background-color: rgb(127, 255, 104); /* Verde escuro */
+  height: 82.5vh;
+  background-color: rgba(0, 0, 0, 0.543);
   color: #fff;
   padding: 15px;
   margin-left: 5px;
@@ -32,17 +32,19 @@
   cursor: pointer;
   padding: 8px;
   margin-bottom: 4px;
-  background-color: #009688; /* Verde mais claro */
+  background-color: rgb(17, 150, 0); /* Verde mais claro */
   border-radius: 5px;
   font-size: 0.9rem;
 }
 
 .receitas-component li:hover {
-  background-color: #4db6ac; /* Verde ainda mais claro no hover */
+  background-color: rgb(38, 189, 9); /* Verde ainda mais claro no hover */
 }
 
 .receitas-component p {
   margin-top: 20px;
   font-size: 1rem;
   color: #ffffff;
+  font-weight: bold; /* Adiciona negrito para destaque */
+  text-align: center; /* Centraliza o texto */
 }

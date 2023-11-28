@@ -19,9 +19,14 @@ const App = () => {
   return (
     <div className="app">
       <SideMenu adicionarReceita={adicionarReceita} adicionarDespesa={adicionarDespesa} />
+      <div className='components'>
+      <div className='title'>
+        <h1>Calculadora Comeracial</h1>
+      </div>
       <div className='despesas_receitas'>
           <ReceitasComponent receitas={receitas.reduce((total, item) => total + item.valor, 0)} itensReceitas={receitas} />
           <DespesasComponent despesas={despesas.reduce((total, item) => total + item.valor, 0)} itensDespesas={despesas} />
+      </div>
       </div>
     </div>
   );
